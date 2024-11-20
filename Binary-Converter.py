@@ -5,7 +5,7 @@ def TextToBinary():
     # Asks for a word from the user
     user = input("Type a word to convert into binary: ")
 
-    # Formats the word in base 2
+    # Formats the word in Binary
     res = ''.join(format(ord(i), '08b') for i in user)
 
     # Prints binary
