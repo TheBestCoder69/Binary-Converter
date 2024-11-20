@@ -26,5 +26,3 @@ def FloatToBinary():
     s = struct.pack('!f', user)
     b = ''.join(format(c, '08b') for c in s)
     print(b)
-
-FloatToBinary()
